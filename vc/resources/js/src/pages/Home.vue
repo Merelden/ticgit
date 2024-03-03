@@ -26,6 +26,24 @@
       <p class="actual__list__block__description">Исполняйте свои мечты здесь и сейчас</p>
     </div>
   </section>
+    <section class="actual">
+    <h2 class="actual__title title">Актуальное</h2>
+    <div class="actual__list">
+      <div class="actual__list__block">
+        <router-link to="/credits" class="actual__list__block__title">Возьмите кредит с малым процентом</router-link>
+        <p class="actual__list__block__description">Такой кредит подойдет всем, потому что процент на него маленький,
+        такой, что все обзавидуются.</p>
+      </div>
+      <div class="actual__list__block" style="background-color: #67122d">
+        <router-link to="/cards" class="actual__list__block__title">Закажите новую дебеотвую карту</router-link>
+        <p class="actual__list__block__description">Лучшее решение для молодого и взрослого поколения.</p>
+      </div>
+    </div>
+    <div class="actual__list__block" style="background-color: #056719">
+      <router-link to="/cards" class="actual__list__block__title">Закажите кредитную карту</router-link>
+      <p class="actual__list__block__description">Исполняйте свои мечты здесь и сейчас</p>
+    </div>
+  </section>
 </template>
 
 <script lang="ts">
